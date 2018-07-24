@@ -12,7 +12,7 @@ end
 fizzbuzz(0)
 
 def counter 
-fizzbuzz(number) 
+fizzbuzz(0) = number
   while number < 10
   puts number
   number += 1
