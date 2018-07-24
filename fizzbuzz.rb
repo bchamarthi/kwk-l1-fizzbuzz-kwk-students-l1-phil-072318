@@ -10,4 +10,14 @@ elsif number % 3 != 0 || number % 5 != 0
 end 
 end 
 
-fizzbuzz(15) 
+def counter 
+fizzbuzz(number) 
+  while number < 10
+  puts number
+  number += 1
+  end
+end 
+
+fizzbuzz (3)
+
+counter
