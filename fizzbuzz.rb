@@ -9,6 +9,7 @@ elsif number % 3 != 0 || number % 5 != 0
   nil
 end 
 end 
+fizzbuzz (3)
 
 def counter 
 fizzbuzz(number) 
@@ -17,7 +18,5 @@ fizzbuzz(number)
   number += 1
   end
 end 
-
-fizzbuzz (3)
 
 counter
