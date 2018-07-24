@@ -1,4 +1,5 @@
-def fizzbuzz(number)
+def counter 
+  def fizzbuzz(number)
 if number % 3 == 0 && number % 5 != 0
   "Fizz"
 elsif number % 5 == 0 && number % 3 != 0 
@@ -9,10 +10,7 @@ elsif number % 3 != 0 || number % 5 != 0
   nil
 end 
 end 
-
-fizzbuzz(0)
-
-def counter 
+  fizzbuzz(0)
 fizzbuzz(number) == 0
   while number < 10
   puts number
