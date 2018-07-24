@@ -9,10 +9,11 @@ elsif number % 3 != 0 || number % 5 != 0
   nil
 end 
 end 
+
 fizzbuzz(0)
 
 def counter 
-fizzbuzz(0)  number
+fizzbuzz(number) == 0
   while number < 10
   puts number
   number += 1
